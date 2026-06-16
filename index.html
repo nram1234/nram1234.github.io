@@ -6,6 +6,7 @@
     <meta name="description" content="Naser Reda - Senior Flutter Developer & Mobile Solutions Architect. Specializing in enterprise mobile systems, POS, HR platforms, and AI-powered apps.">
     <title>Naser Reda | Senior Flutter Developer & Mobile Solutions Architect</title>
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -402,6 +403,8 @@
             height: 100%;
             overflow: hidden;
             position: relative;
+            text-decoration: none;
+            color: inherit;
         }
 
         .project-card:hover {
@@ -654,7 +657,7 @@
             .about-grid { grid-template-columns: 1fr; gap: 3rem; }
             .tech-section-inner { padding: 3rem 2rem; }
             .showcase-wrapper { padding: 2.5rem; gap: 2rem; }
-            .nav-links { display: none; } /* Simplified for single-page UX */
+            .nav-links { display: none; }
         }
 
         @media (max-width: 480px) {
@@ -665,8 +668,10 @@
 </head>
 <body>
 
+    <!-- Radial Glow Background -->
     <div class="bg-glow"></div>
 
+    <!-- Navigation Bar -->
     <nav>
         <div class="container nav-container">
             <a href="#" class="logo">NR.ARCHITECT</a>
@@ -680,6 +685,7 @@
         </div>
     </nav>
 
+    <!-- 1. Hero Section -->
     <section id="hero">
         <div class="container">
             <div class="hero-content">
@@ -717,6 +723,7 @@
         </div>
     </section>
 
+    <!-- 2. About Section -->
     <section id="about" class="reveal">
         <div class="container">
             <div class="about-grid">
@@ -740,6 +747,7 @@
         </div>
     </section>
 
+    <!-- 3. Expertise Section -->
     <section id="expertise" class="reveal">
         <div class="container">
             <div class="section-header">
@@ -748,6 +756,7 @@
             </div>
 
             <div class="expertise-grid">
+                <!-- Card 1 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="2" y1="20" x2="22" y2="20"/><line x1="12" y1="17" x2="12" y2="20"/></svg>
@@ -755,6 +764,7 @@
                     <h3>Enterprise POS Systems</h3>
                     <p>High-reliability retail checkout and point-of-sale systems engineered for sub-second inventory handling and flawless uptime metrics.</p>
                 </div>
+                <!-- Card 2 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
@@ -762,6 +772,7 @@
                     <h3>HR Management</h3>
                     <p>Corporate workspace tools facilitating secure multi-role access control, automated shift scheduling, and complex organizational mapping.</p>
                 </div>
+                <!-- Card 3 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
@@ -769,6 +780,7 @@
                     <h3>Sales Automation</h3>
                     <p>Remote execution platforms tracking field representative performance metrics, active route maps, and structured corporate ordering funnels.</p>
                 </div>
+                <!-- Card 4 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
@@ -776,6 +788,7 @@
                     <h3>Invoice Printing</h3>
                     <p>Low-level layout systems compiling standard document buffers directly into specialized layout mechanisms over ESC/POS protocols.</p>
                 </div>
+                <!-- Card 5 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
@@ -783,6 +796,7 @@
                     <h3>AI Integrations</h3>
                     <p>Embedding localized edge intelligence directly onto mobile chipsets via TensorFlow Lite, MLKit, and cloud runtime integrations.</p>
                 </div>
+                <!-- Card 6 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
@@ -790,6 +804,7 @@
                     <h3>Offline First Apps</h3>
                     <p>Advanced sync architectures utilizing relational cache engines to seamlessly absorb networking dropouts without halting data processing pipelines.</p>
                 </div>
+                <!-- Card 7 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -797,6 +812,7 @@
                     <h3>GPS Tracking</h3>
                     <p>Optimized low-draw background location streams providing continuous geographic metrics without accelerating battery degradation profiles.</p>
                 </div>
+                <!-- Card 8 -->
                 <div class="glass-card expertise-card">
                     <div class="exp-icon-wrapper">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
@@ -808,6 +824,7 @@
         </div>
     </section>
 
+    <!-- 4. Featured Projects Section -->
     <section id="projects" class="reveal">
         <div class="container">
             <div class="section-header">
@@ -816,6 +833,77 @@
             </div>
 
             <div class="projects-grid">
+                <!-- Project: MemoMap -->
+                <a href="https://play.google.com/store/apps/details?id=com.nrk.memomap" target="_blank" class="glass-card project-card">
+                    <div class="project-meta-top">
+                        <span class="project-category">Geospatial Systems</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">MemoMap Platform</h3>
+                        <p class="project-desc">A complex geospatial architecture built to anchor contextual media data and textual strings onto precision coordinates. Features heavy optimization for rendering massive clustering nodes seamlessly across native global maps.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter Core</span>
+                            <span class="project-tag">GPS Engine</span>
+                            <span class="project-tag">Map Clustering</span>
+                            <span class="project-tag">Cache Pipelines</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project: Handcrafted -->
+                <a href="https://play.google.com/store/apps/details?id=com.nrk.handcrafted" target="_blank" class="glass-card project-card">
+                    <div class="project-meta-top">
+                        <span class="project-category">E-Commerce & Logistics</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Handcrafted Marketplace</h3>
+                        <p class="project-desc">A premium commercial gateway facilitating end-to-end digital retail for specialized craft items. Integrates intensive state validations, high-fidelity catalog layouts, and absolute pipeline security for customer processing.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">State Engines</span>
+                            <span class="project-tag">REST APIs</span>
+                            <span class="project-tag">Secure Storage</span>
+                            <span class="project-tag">UI/UX Layer</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project: Laugh Challenge -->
+                <a href="https://play.google.com/store/apps/details?id=com.nrk.laughchallenge" target="_blank" class="glass-card project-card">
+                    <div class="project-meta-top">
+                        <span class="project-category">Interactive Media & Gamification</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Laugh Challenge Engine</h3>
+                        <p class="project-desc">A highly scalable gamification platform utilizing continuous interaction models. Built with advanced lifecycle rules ensuring perfect cross-platform asset loading and immediate interface feedback profiles under intense concurrent thread tasks.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter Game Loop</span>
+                            <span class="project-tag">Asset Optimization</span>
+                            <span class="project-tag">Local Storage</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project: Stolen -->
+                <a href="https://play.google.com/store/apps/details?id=com.nrk.stolen" target="_blank" class="glass-card project-card">
+                    <div class="project-meta-top">
+                        <span class="project-category">Security & Loss Prevention</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Stolen Asset Prevention</h3>
+                        <p class="project-desc">An alert management suite architected for asset loss recovery. Deploys background payload synchronization and responsive notification queues to instantly cascade geo-targeted asset logs to real-time central systems.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Push Telemetry</span>
+                            <span class="project-tag">Background Tasks</span>
+                            <span class="project-tag">Data Encapsulation</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 5 -->
                 <div class="glass-card project-card">
                     <div class="project-meta-top">
                         <span class="project-category">Retail Tech</span>
@@ -825,7 +913,6 @@
                         <h3 class="project-title">Enterprise POS Platform</h3>
                         <p class="project-desc">A highly resilient retail POS terminal app deploying rapid on-device item parsing and custom high-speed thermal printing interfaces designed for intense usage spikes.</p>
                         <div class="project-tags">
-                            <span class="project-tag">Flutter</span>
                             <span class="project-tag">Hive DB</span>
                             <span class="project-tag">ESC/POS Raw</span>
                             <span class="project-tag">Bloc</span>
@@ -833,39 +920,7 @@
                     </div>
                 </div>
 
-                <div class="glass-card project-card">
-                    <div class="project-meta-top">
-                        <span class="project-category">Workforce Management</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                    </div>
-                    <div class="project-body">
-                        <h3 class="project-title">HR Management System</h3>
-                        <p class="project-desc">A cross-platform employee portal enabling robust cryptographic check-ins via localized geofencing boundaries, biometric validations, and direct shift rosters.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Flutter Core</span>
-                            <span class="project-tag">Geofencing</span>
-                            <span class="project-tag">Biometrics</span>
-                            <span class="project-tag">REST APIs</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-card project-card">
-                    <div class="project-meta-top">
-                        <span class="project-category">Logistics & Sales</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                    </div>
-                    <div class="project-body">
-                        <h3 class="project-title">Sales Representative Platform</h3>
-                        <p class="project-desc">A real-time routing application tracking field sales agents. Seamlessly pushes inventory management telemetry and maps active vehicle pipelines directly to warehouse servers.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Google Maps API</span>
-                            <span class="project-tag">Firebase DB</span>
-                            <span class="project-tag">Background Tasks</span>
-                        </div>
-                    </div>
-                </div>
-
+                <!-- Project 6 -->
                 <div class="glass-card project-card">
                     <div class="project-meta-top">
                         <span class="project-category">Artificial Intelligence</span>
@@ -875,41 +930,9 @@
                         <h3 class="project-title">SpeakFlow Teleprompter</h3>
                         <p class="project-desc">An intelligent presentation application featuring on-device real-time voice speech tracking, automated script parsing, and ultra-smooth fluid display rendering models.</p>
                         <div class="project-tags">
-                            <span class="project-tag">Flutter Engine</span>
+                            <span class="project-tag">TensorFlow Lite</span>
                             <span class="project-tag">On-Device ML</span>
                             <span class="project-tag">Audio Stream Parsing</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-card project-card">
-                    <div class="project-meta-top">
-                        <span class="project-category">Edge Intelligence</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                    </div>
-                    <div class="project-body">
-                        <h3 class="project-title">AI Powered Solutions</h3>
-                        <p class="project-desc">Custom on-chip vision and classification frameworks optimized for high execution frame rates without heavy cloud processing dependencies.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">TensorFlow Lite</span>
-                            <span class="project-tag">Google ML Kit</span>
-                            <span class="project-tag">OpenAI API</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-card project-card">
-                    <div class="project-meta-top">
-                        <span class="project-category">Architecture Infrastructure</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                    </div>
-                    <div class="project-body">
-                        <h3 class="project-title">Offline First Business Suite</h3>
-                        <p class="project-desc">A highly specialized ERP operational hub constructed with rigorous state engines to guarantee perfect local data validation during deep network dropouts.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">SQLite Engine</span>
-                            <span class="project-tag">Riverpod</span>
-                            <span class="project-tag">Clean Architecture</span>
                         </div>
                     </div>
                 </div>
@@ -917,6 +940,7 @@
         </div>
     </section>
 
+    <!-- 5. Technology Stack -->
     <section id="tech" class="reveal">
         <div class="container">
             <div class="tech-section-inner">
@@ -995,26 +1019,27 @@
         </div>
     </section>
 
+    <!-- 6. Statistics Section -->
     <section id="stats" class="reveal">
         <div class="container">
             <div class="stats-grid">
                 <div class="glass-card stat-card">
-                    <div class="stat-num" data-target="50">50+</div>
+                    <div class="stat-num">50+</div>
                     <div class="stat-label">Projects Delivered</div>
                     <div class="stat-sub">Fully functional mobile platforms</div>
                 </div>
                 <div class="glass-card stat-card">
-                    <div class="stat-num" data-target="20">20+</div>
+                    <div class="stat-num">20+</div>
                     <div class="stat-label">Enterprise Solutions</div>
                     <div class="stat-sub">POS, HR, and logistics software</div>
                 </div>
                 <div class="glass-card stat-card">
-                    <div class="stat-num" data-target="2">2</div>
+                    <div class="stat-num">2</div>
                     <div class="stat-label">Target Stores</div>
                     <div class="stat-sub">Android Play Store & Apple iOS App Store</div>
                 </div>
                 <div class="glass-card stat-card">
-                    <div class="stat-num" data-target="12">12+</div>
+                    <div class="stat-num">12+</div>
                     <div class="stat-label">Business Domains</div>
                     <div class="stat-sub">From modern deep AI to dense industrial logistics</div>
                 </div>
@@ -1022,6 +1047,7 @@
         </div>
     </section>
 
+    <!-- 7. Google Play Showcase -->
     <section id="showcase" class="reveal">
         <div class="container">
             <div class="showcase-wrapper">
@@ -1040,6 +1066,7 @@
         </div>
     </section>
 
+    <!-- 8. Contact Section -->
     <section id="contact" class="reveal">
         <div class="container">
             <div class="section-header">
@@ -1075,6 +1102,7 @@
         </div>
     </section>
 
+    <!-- Footer Area -->
     <footer>
         <div class="container footer-container">
             <div>© 2026 Naser Reda. All professional architecture rights reserved.</div>
@@ -1082,17 +1110,16 @@
         </div>
     </footer>
 
+    <!-- --- CORE INTERACTIVE SCRIPTING --- -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            
-            // 1. INTERSECTION OBSERVER ANIMATION CONTROL
             const revealElements = document.querySelectorAll('.reveal');
             
             const revealObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if(entry.isIntersecting) {
                         entry.target.classList.add('active');
-                        observer.unobserve(entry.target); // Run only once for premium look
+                        observer.unobserve(entry.target);
                     }
                 });
             }, {
@@ -1104,7 +1131,6 @@
                 revealObserver.observe(element);
             });
 
-            // 2. SMOOTH SCROLL BEHAVIOR LOGIC
             document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -1113,14 +1139,13 @@
                     
                     if (targetElement) {
                         window.scrollTo({
-                            top: targetElement.offsetTop - 60, // Account for fixed navigation offset
+                            top: targetElement.offsetTop - 60,
                             behavior: 'smooth'
                         });
                     }
                 });
             });
 
-            // 3. DYNAMIC NAVIGATION BAR STYLING MATRIX
             const nav = document.querySelector('nav');
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 50) {
